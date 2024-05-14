@@ -498,6 +498,56 @@ footer p{
     }
 }
 
+.boton-trabajos{
+    background-color: var(--blanco);
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: var(--negro);
+    text-decoration: none;
+    width: 50%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 45%;
+    align-items: baseline;
+}
+.boton-trabajos:hover{
+    background-color: var(--primario);
+    color: var(--negro);
+}
+
+.boton-trabajos2{
+    background-color: var(--negro);
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: var(--blanco);
+    text-decoration: none;
+    width: 50%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 45%;
+    align-items: baseline;
+}
+.boton-trabajos2:hover{
+    background-color: var(--primario);
+    color: var(--negro);
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.margin-top2{
+    margin-top: 2rem;
+}
+
+.margin-top4{
+    margin-top: 4rem;
+}
+
 /*CV*/
 
 .img-cv{
