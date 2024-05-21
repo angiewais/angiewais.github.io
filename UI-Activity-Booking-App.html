@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Angela Torres</title>
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        
+        <nav class="contenedor-nav contenedor">
+            <div class="logo-nombre">
+                <a href="index.html">
+                    <img src="img/Logo.png" alt="Logo Angela Torres">
+                    <h1>Angela Torres <!--<span>Designer UX/UI</span>--></h1>
+                </a>
+            </div>
+            <div class="respmenu" id="_items">
+                <ul>
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="trabajos.html" class="activo">Trabajos</a></li>
+                    <li><a href="aboutme.html">Sobre mi</a></li>
+                    <li><a href="CV.html">CV</a></li>
+    
+                </ul>
+            </div>
+            <div class="nav_toggle" id="_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <script>
+            _toggle.onclick = () =>{
+                _items.classList.toggle("open")
+                _toggle.classList.toggle("close")
+            }
+        </script>
+    </header>
+
+    <main class="margin-bottom">
+        <style type="text/css">
+            body, main{
+                background-color: #FFFFFF;
+            }
+        </style>
+        <div class="img-trabajos centrado">
+            <div class="centrado-hijo">
+                <img src="img/Mayores-Activos-UI.png" alt="UI Activities Booking App">
+
+        </div>
+        <div class="">
+            <a class="boton-trabajos2" href="https://www.figma.com/proto/F7ZyBLixXSkbgZE3kKAWUB/Prototipado-UX-Alta-Definici%C3%B3n?page-id=0%3A1&node-id=55-1265&viewport=745%2C-813%2C0.17&t=mU5T4ozwm0IvIUFY-1&scaling=scale-down&starting-point-node-id=55%3A1265&show-proto-sidebar=1" target="_blank">Ver prototipo</a>    
+        </div>
+        
+    </main>
+
+    <footer class="padding-m">
+        <div class="footer-left">
+            <p>Angela Torres | Product Designer</p>
+            <p>Copyright © 2024</p>
+        </div>
+        <div class="footer-icons">
+            <a href="https://www.behance.net/angelatorres5" target="_blank"><img src="img/Behance logo.svg" alt="Behance link"></a>
+            <a href="https://www.linkedin.com/in/angiewais/" target="_blank"><img src="img/Linkedin logo.svg" alt="Linkedin link"></a>
+        </div>
+    </footer>
+</body>
+</html>
