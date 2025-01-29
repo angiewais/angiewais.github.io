@@ -43,6 +43,7 @@ header{
     margin-bottom: 2rem;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 header img{
@@ -294,7 +295,14 @@ p{
 
 /*Imagenes Home*/
 
-
+/*.contenedor-trabajos{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}*/
 .img-home{
 
     justify-content: center;
@@ -361,6 +369,7 @@ p{
     font-size: 1rem;
     cursor: pointer;
     margin-left: 25%;
+    /*MODIFICAR BOTON CON FLEX PARA QUE ESTÉ SIEMPRE CENTRADO*/
     align-items: baseline;
 }
 
@@ -372,7 +381,13 @@ p{
     flex-direction: column;
     margin: 1rem;
     color: var(--blanco);
-    background-color: var(--grisoscuro);
+    /*background-color: var(--grisoscuro);*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     display: block;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
